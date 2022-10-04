@@ -19,6 +19,6 @@ Main theme and color schemes of the dotfiles is based on [Gruvbox](https://githu
 ### Wallpapers
 In the preview I used wallpapers from FrenzyExists' [collection](https://github.com/FrenzyExists/wallpapers)
 
-### Additional information:
+### Additional information
 - Fonts: Iosevka Term/Iosevka Nerd Font/Iosevka SS05 Extended
 - [Make your Arch install look actually decent fonts-wise](https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7)
