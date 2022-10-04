@@ -7,7 +7,8 @@ Most of these are copied from [here](https://github.com/khyrthy/dotfiles), with 
 ## System Information
 - Distro: Arch Linux
 - Window Manager: BSPWM
-- Termianl: URxvt
+- Compositor: [Arian8j2's picom fork](https://github.com/Arian8j2/picom)
+- Terminal: URxvt
 - File browser: Ranger
 - System Information: Neofetch [themed](https://github.com/chick2d/neofetch-themes/)
 - Clock: Peaclock
