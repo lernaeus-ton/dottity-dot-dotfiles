@@ -16,11 +16,14 @@ bspc config merge_overlapping_monitors true
 xrandr --output DisplayPort-0 --primary --mode 1920x1080 --rate 144.00 --output HDMI-A-0 --mode 1920x1080 --rate 75.00 --right-of DisplayPort-0
 
 # Get a normal cursor
-xsetroot -cursor_name "left_ptr"
+xsetroot -cursor_name left_ptr &
 
 # Monitors
-bspc monitor DisplayPort-0 -d 1 2 3 4 5
-bspc monitor HDMI-A-0 -d 6 7 8 9 0
+bspc monitor DisplayPort-0 -d 1 2 3 4 5 &
+bspc monitor HDMI-A-0 -d 6 7 8 9 0 &
+
+# Manager for screen locking
+xss-lock xsecurelock &
 
 # Start sxhkd
 killall sxhkd
