@@ -23,3 +23,4 @@ In the preview I used wallpapers from FrenzyExists' [collection](https://github.
 - Fonts: Iosevka Term/Iosevka Nerd Font/Iosevka SS05 Extended
 - [Make your Arch install look actually decent fonts-wise](https://gist.github.com/YoEight/d19112db56cd8f93835bf2d009d617f7)
 - Multiple scripts from the [polybar-scripts](https://github.com/polybar/polybar-scripts/) repository
+- For screen locking to actually work, I had to personally use [xsecurelock](https://github.com/google/xsecurelock)
