@@ -28,7 +28,7 @@ super + {f,shift + f,t}
 	bspc node -t {floating,fullscreen,tiled}
 
 # Launch rofi
-super + @space
+super + s
 	rofi -show drun
 
 # Rofi-power-menu
@@ -41,7 +41,7 @@ super + semicolon
 
 # Start a terminal
 super + Return
-	urxvt
+	urxvt -e fish
 
 # Increse/Decrease sound level
 XF86AudioRaiseVolume
