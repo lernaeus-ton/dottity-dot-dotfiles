@@ -13,18 +13,18 @@ CONFIGURATION FOR ROFI
 		  font: "Iosevka SS05 Extended 12";
 		  
 		  /* Colors */
-		  foreground: #ebdbb2;
+		  foreground: #98971a;
 		  background: #282828;
 		  
 		  active-background: #282828;
 		  urgent-backgroubd: #cc241d;
 
-		  selected-background: #ebdbb2;
-		  selected-urgent-background: #ebdbb2;
-		  selected-active-bacground: #ebdbb2;
+		  selected-background: #98971a;
+		  selected-urgent-background: #98971a;
+		  selected-active-bacground: #98971a;
 
-		  bordercolor: #ebdbb2;
-		  separatorcolor: #ebdbb2;
+		  bordercolor: #98971a;
+		  separatorcolor: #98971a;
 
 
 
