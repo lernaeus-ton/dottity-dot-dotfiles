@@ -29,6 +29,9 @@ xss-lock xsecurelock &
 killall sxhkd
 sxhkd &
 
+# Start Redshift
+redshift-gtk &
+
 # Policy kit
 /lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
