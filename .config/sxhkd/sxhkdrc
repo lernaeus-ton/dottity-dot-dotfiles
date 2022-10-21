@@ -29,7 +29,7 @@ super + {f,shift + f,t}
 
 # Launch rofi
 super + s
-	rofi -show drun
+	rofi -show drun -icon-theme "Gruvbox-Material-Dark" -show-icons
 
 # Rofi-power-menu
 super + p
@@ -82,3 +82,11 @@ super + {Left,Right,Up,Down}
 # Launch Flameshot
 super + shift + s
 	flameshot gui
+
+# Go To Next Layout
+super + shift + i
+	bsp-layout next --layouts tiled,tall,wide,even,grid && notify-send -t 800 'Current BSPWM Layout' "$(echo $(bsp-layout get) | sed 's/.*/\u&/')"
+
+# Go To Previous Layout
+super + shift + u
+	bsp-layout previous --layouts tiled,tall,wide,even,grid && notify-send -t 800 'Current BSPWM Layout' "$(echo $(bsp-layout get) | sed 's/.*/\u&/')"

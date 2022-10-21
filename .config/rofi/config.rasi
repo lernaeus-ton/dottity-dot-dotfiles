@@ -23,7 +23,7 @@ CONFIGURATION FOR ROFI
 		  selected-urgent-background: #ebdbb2;
 		  selected-active-bacground: #ebdbb2;
 
-		  bordercolor: #ebdbb2;
+		  bordercolor: #1d2021;
 		  separatorcolor: #ebdbb2;
 
 

@@ -36,7 +36,8 @@
 *color15: #ebdbb2
 
 URxvt.scrollBar: false
-URxvt.font: xft:Iosevka Term:style=Extended:size=14:antialias=true:hinting=true
+URxvt.font: xft:Iosevka Term:style=Semibold:size=12:antialias=true:hinting=true
+URxvt.internalBorder:  12
 
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
@@ -44,3 +45,9 @@ URxvt.iso14755: false
 URxvt.iso14755_52: false
 
 Xcursor.theme:Capitaine Cursors (Gruvbox) - White
+
+URxvt.keysym.C-minus:     resize-font:smaller
+URxvt.keysym.C-plus:      resize-font:bigger
+URxvt.keysym.C-equal:     resize-font:reset
+URxvt.keysym.C-question:  resize-font:show
+URxvt.resize-font.step:   2
