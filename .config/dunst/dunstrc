@@ -70,7 +70,7 @@
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
     # geometry = "0x3-15+45"
-    width = (0, 256)
+    width = (128, 640)
     origin = top-center
     offset = 0x35
     

@@ -10,7 +10,7 @@ CONFIGURATION FOR ROFI
 
 * {
 
-		  font: "Iosevka SS05 Extended 12";
+		  font: "Iosevka Term 12";
 		  
 		  /* Colors */
 		  foreground: #ebdbb2;
