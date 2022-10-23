@@ -1,7 +1,7 @@
 [global]
-    frame_width = 2
+    frame_width = 5
     # frame_color = "#ebdbb2"
-    frame_color = "#1d2021"
+    frame_color = "#665c54"
 
     font = Iosevka SS05 Regular 10
     
@@ -71,8 +71,8 @@
     # screen width minus the width defined in within the geometry option.
     # geometry = "0x3-15+45"
     width = (128, 640)
-    origin = top-center
-    offset = 0x35
+    origin = top-right
+    offset = 5x35
     
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
