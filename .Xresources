@@ -37,7 +37,7 @@
 
 URxvt.scrollBar: false
 ! URxvt.font: xft:Terminus:size=12,xft:TerminessTTF Nerd Font Mono:size=12
-URxvt.font: xft:Iosevka:style=Bold:size=12
+URxvt.font: xft:Iosevka:style=Bold:size=12, xft:Iosevka Term:size=12
 URxvt.internalBorder:  12
 URxvt.geometry: 135x30
 URxvt.letterSpace: -1
