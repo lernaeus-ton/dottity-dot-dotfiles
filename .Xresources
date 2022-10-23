@@ -36,9 +36,12 @@
 *color15: #ebdbb2
 
 URxvt.scrollBar: false
-URxvt.font: xft:Iosevka Term:style=Semibold:size=12:antialias=true:hinting=true
+! URxvt.font: xft:Terminus:size=12,xft:TerminessTTF Nerd Font Mono:size=12
+URxvt.font: xft:Iosevka:style=Bold:size=12
 URxvt.internalBorder:  12
-URxvt.geometry: 125x30
+URxvt.geometry: 135x30
+URxvt.letterSpace: -1
+URxvt.cursorUnderline: 1
 
 URxvt.keysym.Shift-Control-V: eval:paste_clipboard
 URxvt.keysym.Shift-Control-C: eval:selection_to_clipboard
