@@ -10,7 +10,8 @@ CONFIGURATION FOR ROFI
 
 * {
 
-		  font: "Iosevka Medium 11";
+		  /* font: "Iosevka Medium Extended 11"; */
+		  font: "Inter Medium 12";
 		  
 		  /* Colors */
 		  foreground: #ebdbb2;

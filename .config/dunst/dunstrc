@@ -3,7 +3,7 @@
     # frame_color = "#ebdbb2"
     frame_color = "#665c54"
 
-    font = Iosevka SS05 Regular 10
+    font = Iosevka Semibold Extended 10
     
     # Allow a small subset of html markup:
     #   <b>bold</b>
